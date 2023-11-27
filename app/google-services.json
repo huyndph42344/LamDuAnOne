@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199058226305",
+    "project_id": "lamduanone-nhom11",
+    "storage_bucket": "lamduanone-nhom11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199058226305:android:f7a1d82856a421462da180",
+        "android_client_info": {
+          "package_name": "com.example.lamduanone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWI87mhl3SpgG5ckExggRW9fSmPSBGsps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -65,19 +65,15 @@
                 android:layout_height="wrap_content"
                 android:text="Tài khoản :" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/w_username"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <EditText
-                    android:id="@+id/txt_username"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/cus_inputlogin"
-                    android:paddingHorizontal="12dp"
 
-                    android:hint="Nhập tài khoản" />
-            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cus_inputlogin"
+                android:hint="Nhập Email"
+
+                android:paddingHorizontal="12dp" />
 
 
         </LinearLayout>
@@ -95,12 +91,7 @@
                 android:layout_height="wrap_content"
                 android:text="Mật khẩu :" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/w_password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
-                >
 
 
                 <EditText
@@ -108,11 +99,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/cus_inputlogin"
+                    android:hint="Nhập mật khẩu"
                     android:inputType="textPassword"
-                    android:paddingHorizontal="12dp"
 
-                    android:hint="Nhập mật khẩu" />
-            </com.google.android.material.textfield.TextInputLayout>
+                    android:paddingHorizontal="12dp" />
+
 
 
         </LinearLayout>
@@ -150,28 +141,33 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:text="ĐĂNG NHẬP"
+            android:background="@drawable/cus_btn_login"
+            app:backgroundTint="@null"
             android:textColor="@color/white"
             android:textSize="16dp"
             android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:gravity="center">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tôi không có tài khoản? "
-                android:textSize="15dp"
-                android:textColor="#b1b1b1"/>
+                android:textColor="#b1b1b1"
+                android:textSize="15dp" />
+
             <TextView
                 android:id="@+id/txt_credangki"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Tạo tài khoản"
                 android:textColor="#71cd8f"
-                android:textStyle="bold"
                 android:textSize="15dp"
-                android:text="Tạo tài khoản"/>
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 
